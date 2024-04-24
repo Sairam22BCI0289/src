@@ -1,0 +1,362 @@
+.welcome {
+  margin-top:0;
+  background-image:url("csk_home_1.jpg");
+  width:100%;
+  height:60%;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  margin-bottom:0;
+  display:inline-block;
+}
+
+.welcome_title {
+  float:left;
+  width:45%;
+  font-size:50px;
+  color:rgba(236, 176, 25, 0.781);
+  padding:20px;
+}
+
+.about {
+  margin-top:100px;
+  float:right;
+  width:40%;
+  color:rgb(237, 237, 237);
+  padding:20px;
+}
+
+header {
+  background-color:rgb(255, 191, 0);
+  margin-top:0;
+  width:100%;
+  height:50px;
+  padding:1px;
+}
+
+footer {
+  background-color:rgb(255, 191, 0);
+  color:rgb(28, 77, 166);
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:50px;
+  padding:1px;
+  text-align:center;
+}
+
+#header_title {
+  padding:5px;
+  margin-top:10px;
+  margin-left:20px;
+  color:rgb(28, 77, 166);
+
+}
+
+nav {
+  background-color:rgb(28, 77, 166);
+  width:45%;
+  height:35px;
+  margin:auto;
+  padding-top:10px;
+  float:top;
+  text-align:center;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+
+a {
+  margin-top:100px;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:5px;
+  padding-bottom:7px;
+  color:white;
+  text-decoration:none;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: rgb(19, 52, 113);
+  border-radius:10px;
+  height:55px;
+  width:40px;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.chennai {
+  color:rgb(60, 60, 60);
+  margin-top:0;
+  display:inline-block;
+  margin-left:45px;
+  padding:15px;
+}
+
+.chennai_title {
+  color:rgb(28, 77, 166);
+  float:left;
+  width:65%;
+}
+
+.chennai_para {
+  float:left;
+  width:65%;
+  background-color:none;
+}
+
+.homeground {
+  background-color:rgba(180, 154, 11, 0.297);
+  width:100%;
+  height:40%;
+  padding:15px;
+  color:rgb(60, 60, 60);
+  display:inline-block;
+  background-size:100% 100%;
+}
+
+.homeground_title {
+  color:rgb(28, 77, 166);
+  float:left;
+  width:60%;
+  margin-left:45px;
+}
+
+.homeground_para {
+  float:left;
+  width:60%;
+  margin-left:45px;
+}
+
+#chennai_img {
+  float:right;
+  border-radius:10px;
+  margin-right:20px;
+  width:20%;
+  height:300px;
+  margin-top:25px;
+}
+
+#homeground_img {
+  float:right;
+  border-radius:10px;
+  margin-right:50px;
+  width:25%;
+  height:200px;
+  margin-top:35px;
+}
+
+select {
+  text-align:center;
+  padding:2px;
+  width:30%;
+  height:40px;
+  background-color:rgb(28, 77, 166);
+  color:white;
+  border-radius:10px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.role {
+  background-color: rgb(28, 77, 166);
+  color: white;
+  height:45px;
+  width:150px;
+  border-radius:10px; 
+  margin:0 10px; 
+  border:none;
+}
+
+
+.sel_container {
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.card-collection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:40px;
+  padding:5px;
+  width:60%;
+  box-sizing:border-box;
+  column-gap:0px;
+}
+
+.player_card {
+  background-color: white;
+  height: 450px;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 0; 
+}
+
+.card_body {
+  background-color: rgb(255, 208, 0);
+  color: rgb(28, 77, 166);
+  border: solid rgb(154, 154, 154) 2px;
+  border-top: solid rgb(154, 154, 154) 5px;
+  width: 92%;
+  height: 170px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0;
+}
+
+.player_img {
+  background-image:url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Logooutline/CSKoutline.png");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width:100%;
+  height:200px;
+  border:solid rgb(154, 154, 154) 2px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  margin:0;
+  border-bottom: solid rgb(154, 154, 154) 5px;
+}
+
+.page_title {
+  color:rgb(28, 77, 166);
+  margin:auto;
+  text-align:center;
+}
+
+.contact_det {
+  background-color:rgb(255, 208, 0);
+  margin:auto;
+  color:rgb(28, 77, 166);
+  text-align:center;
+  border:solid rgb(154, 154, 154) 2px;
+  border-radius:10px;
+  width:30%;
+  padding:25px;
+}
+
+.dhoni {
+  height: 450px;
+  width: 55%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 0; 
+}
+
+.player_info {
+  width:60%;
+  height:225px;
+  background-color:rgb(255, 208, 0);
+  color:rgb(28, 77, 166);
+  margin:auto;
+  margin-bottom:20px;
+  border:solid rgb(154, 154, 154) 2px;
+  border-radius:10px;
+  padding-left:15px;
+}
+
+.player_img2 {
+  margin-top:20px;
+  float:right;
+  width:20%;
+  height:150px;
+}
+
+input {
+  width:15%;
+  height:30px;
+  border:solid rgb(28, 77, 166) 2px;
+  border-radius:10px;
+}
+
+.searchbar {
+  margin:auto;
+  text-align:center;
+}
+
+.icon {
+  height:35px;
+  width:35px;
+  float:left;
+  margin:10px 10px 0px 10px;
+}
+
+#click {
+  padding-left:0px;
+}
+
+#click:link {
+  color: rgb(28, 77, 166);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#click:visited {
+  color: rgb(28, 77, 166);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#click:hover {
+  color: rgb(28, 77, 166);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#click:active {
+  color: rgb(28, 77, 166);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.trophy {
+  height:200px;
+  width:45%;
+  margin-top:10px;
+}
+
+.trophy_collection {
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  grid-template-rows:auto auto;
+  width:80%;
+  margin:auto;
+  margin-bottom:25px;
+  padding:20px;
+}
+
+.trophy_card {
+  color:rgb(28, 77, 166);
+  text-align:center;
+  border:solid rgb(28, 77, 166) 2px;
+  border-radius:10px;
+  width:75%;
+  margin-top:15px;
+}
+
